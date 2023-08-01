@@ -1,3 +1,4 @@
+#sum of two numbers
 n1 = int (input('Enter any number'))
 n2 = int(input('Enter any other number'))
 sum = n1 + n2
