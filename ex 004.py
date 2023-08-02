@@ -1,5 +1,6 @@
-#information about the typed variable
+#Information about the typed variable
 x = input('Type anything: ')
+
 print('The primitive type of this is: ', type(x))
 print('Just spaces? ', x.isspace())
 print('Is it a number? ', x.isnumeric())
