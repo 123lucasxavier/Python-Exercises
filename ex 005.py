@@ -2,4 +2,4 @@
 
 n1 = int(input('Enter any whole number '))
 
-print('The successor of that number is {} and the predecessor is {}'.format((n1+1),(n1-1)))
+print('The successor of this number is {} and the predecessor is {}'.format((n1+1),(n1-1)))
