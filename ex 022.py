@@ -3,11 +3,11 @@
 # How many letters in all (not including spaces).
 # How many letters are in the first name.
 
-name = input('Enter your full name ')
+name = str(input('Enter your full name ')).strip()
 
 print(name.upper())
 print(name.lower())
-print(len(name.replace(' ',"")))
+print(len(name) - name.count(' '))
 
 s = name.split()
 
