@@ -1,4 +1,4 @@
-#Write a code using python that opens and plays the audio of an mp3 file
+#Type a code using python that opens and plays the audio of an mp3 file
 
 import pygame
 

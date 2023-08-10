@@ -1,4 +1,4 @@
-#Write a program that reads the length of the legs of a right triangle, calculates and displays the lenght of the hypotenuse
+#Make a program that reads the length of the legs of a right triangle, calculates and displays the lenght of the hypotenuse
 
 import math
 

@@ -1,4 +1,4 @@
-#Write a program that reads any real number and displays the integer portion of the number
+#Make a program that reads any real number and displays the integer portion of the number
 
 import math
 

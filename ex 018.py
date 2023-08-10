@@ -1,4 +1,4 @@
-#Write a program that reads any angle and displays its sine, cosine and tangent
+#Type a program that reads any angle and displays its sine, cosine and tangent
 
 import math
 

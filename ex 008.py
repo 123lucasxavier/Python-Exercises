@@ -1,4 +1,4 @@
-#Write a program that reads a value in meters and displays it converted into centimeters and millimeters
+#Type a program that reads a value in meters and displays it converted into centimeters and millimeters
 
 n1 = float(input('Enter a value in meters '))
 

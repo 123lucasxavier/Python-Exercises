@@ -1,4 +1,4 @@
-#Write a program that reads a number from 0 to 9999 and displays each of the digits separately.
+#Make a program that reads a number from 0 to 9999 and displays each of the digits separately.
 
 n = int(input('Enter any number between 0 and 9999 '))
 

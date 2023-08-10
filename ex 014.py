@@ -1,4 +1,4 @@
-#Write an algorithm that converts a temperature entered in cº to fº
+#Make an algorithm that converts a temperature entered in cº to fº
 
 c = float(input('Enter the temperature in ºc'))
 f = 9 * c /5 +32

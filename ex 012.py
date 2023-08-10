@@ -1,4 +1,4 @@
-#Write a algorithm that reads the price of a product and shows its new price, with 5% off
+#Type a algorithm that reads the price of a product and shows its new price, with 5% off
 
 p = float(input('What is the price of this product?'))
 d = p * 5/100
