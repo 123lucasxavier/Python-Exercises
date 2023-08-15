@@ -5,9 +5,11 @@
 import locale
 locale.setlocale(locale.LC_ALL, 'pt_BR.utf8')
 
-speed = int(input('Enter your car speed '))
+speed = float(input('Enter your car speed '))
 fine = (speed - 80)*7
 fine = locale.currency(fine, grouping=True)
 
 if speed > 80:
     print('You were fined! It will cost {}'.format(fine))
+else:
+    print('Have a nice day, drive safe!')
