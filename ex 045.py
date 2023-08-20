@@ -11,6 +11,11 @@ scissors = 'scissors'
 #This function choose a single random element in a list, tuple or string
 pc = random.choice([rock,paper,scissors])
 
+#Another alternative
+#plays = ('Rock','Paper','Scissors')
+#pc = radiant(0,2)
+#print ('The pc chose {}'.format(plays[pc]))
+
 if pc == rock and player == rock or pc == paper and player == paper or pc == scissors and player == scissors:
     print(pc,'!')
     print('Draw! We both chose the same thing.')

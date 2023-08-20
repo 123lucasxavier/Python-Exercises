@@ -5,7 +5,13 @@
 #up to 20 years old: senior
 #over 20 years old: master
 
-age = int(input('Hello swimmer, how old are you? '))
+from datetime import date
+
+current = date.today().year
+
+year = int(input('Hello swimmer, what is your date of birth? '))
+
+age = current - year
 
 if age <= 9:
     print('Your category is child!')

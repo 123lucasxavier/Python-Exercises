@@ -2,7 +2,12 @@
 
 integer = int(input('Please enter a integer: '))
 
-conversion_base = int(input('What will be the basis of conversion? \nEnter:\n1 for binary\n2 for octal\n3 for hexadecimal\n'))
+conversion_base = int(input('''What will be the basis of conversion?
+Enter:
+[1] for binary
+[2] for octal
+[3] for hexadecimal
+'''))
 
 if conversion_base == 1:
     print('The number {} in binary is {}'.format(integer,bin(integer)))

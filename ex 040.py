@@ -10,7 +10,7 @@ av = (g1+g2)/2
 
 if av < 5.0:
     print('You failed! You need to study more!')
-elif av > 0.5 and av < 6.9:
+elif av >= 0.5 and av < 6.9:
     print('You must take a retake exam!')
 elif av >= 7.0:
     print('You were approved! Congratulations!')
